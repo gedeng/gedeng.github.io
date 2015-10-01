@@ -149,12 +149,11 @@ body {
   -o-animation: heartbeat 1300ms ease 0s infinite normal;
   animation: heartbeat 1300ms ease 0s infinite normal;
   display: inline-block;
-  z-index: 1;
   overflow: hidden;
   margin: auto;
   text-indent: -9999px;
-  width: 50px;
-  height: 50px;
+  width: 400px;
+  height: 400px;
   -moz-transform: rotate(45deg) scale(1);
   -ms-transform: rotate(45deg) scale(1);
   -webkit-transform: rotate(45deg) scale(1);
@@ -164,40 +163,44 @@ body {
   -webkit-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
 }
-/* line 60, ../sass/heartbeat.scss */
+/* line 59, ../sass/heartbeat.scss */
 .heartbeat:not(:required):after, .heartbeat:not(:required):before {
   position: absolute;
   content: "";
   background: #e87;
 }
-/* line 66, ../sass/heartbeat.scss */
+/* line 65, ../sass/heartbeat.scss */
 .heartbeat:not(:required):before {
-  -moz-border-radius-topleft: 16.66667px;
-  -webkit-border-top-left-radius: 16.66667px;
-  border-top-left-radius: 16.66667px;
-  -moz-border-radius-bottomleft: 16.66667px;
-  -webkit-border-bottom-left-radius: 16.66667px;
-  border-bottom-left-radius: 16.66667px;
-  top: 16.66667px;
+  -moz-border-radius-topleft: 133.33333px;
+  -webkit-border-top-left-radius: 133.33333px;
+  border-top-left-radius: 133.33333px;
+  -moz-border-radius-bottomleft: 133.33333px;
+  -webkit-border-bottom-left-radius: 133.33333px;
+  border-bottom-left-radius: 133.33333px;
+  top: 133.33333px;
   left: 0;
-  width: 50px;
-  height: 33.33333px;
+  width: 400px;
+  height: 266.66667px;
 }
-/* line 74, ../sass/heartbeat.scss */
+/* line 73, ../sass/heartbeat.scss */
 .heartbeat:not(:required):after {
-  -moz-border-radius-topleft: 16.66667px;
-  -webkit-border-top-left-radius: 16.66667px;
-  border-top-left-radius: 16.66667px;
-  -moz-border-radius-topright: 16.66667px;
-  -webkit-border-top-right-radius: 16.66667px;
-  border-top-right-radius: 16.66667px;
+  -moz-border-radius-topleft: 133.33333px;
+  -webkit-border-top-left-radius: 133.33333px;
+  border-top-left-radius: 133.33333px;
+  -moz-border-radius-topright: 133.33333px;
+  -webkit-border-top-right-radius: 133.33333px;
+  border-top-right-radius: 133.33333px;
   top: 0;
-  left: 16.66667px;
-  width: 33.33333px;
-  height: 16.66667px;
+  left: 133.33333px;
+  width: 266.66667px;
+  height: 133.33333px;
 }
 
-/* line 83, ../sass/heartbeat.scss */
-.danmaku {
-  height: 500px;
+/* line 82, ../sass/heartbeat.scss */
+.abp {
+  position: absolute;
+  z-index: 1;
+  top: -250px;
+  margin: auto;
+  width: 200px;
 }
