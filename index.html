@@ -8,14 +8,26 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/heartbeat.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/heartbeat/stylesheets/heartbeat.css" media="screen">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="javascripts/CommentCoreLibrary.js"></script>
+    <script src="javascripts/main.js"> </script>
   </head>
   <body>
     <section class="page-header">
       <h1 class="project-name">咯噔</h1>
       <h2 class="project-tagline">Official site of GeDeng</h2>
       <span class="heartbeat">Loading...</span>
+      <div class="danmaku">
+          <div class="abp" id="player">
+              <div class="container" id="commentCanvas">
+                  <!--
+                      This div will become the comment stage
+                      You should pass a DOM reference to this element NOT its parent
+                  -->
+              </div>
+          </div>
+      </div>
     </section>
-
   </body>
 </html>
